@@ -161,6 +161,7 @@ function resetHandler(e) {
 	document.querySelector('#computer-score').textContent = computerScore;
 	document.querySelector('#rps-panel').addEventListener('click', clickHandler);
 	document.querySelector('#reset-btn').style.display = "none";
+	document.querySelector('#result').textContent = '';
 }
 
 document.querySelector('#rps-panel').addEventListener('click', clickHandler);
